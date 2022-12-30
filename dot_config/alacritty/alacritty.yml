@@ -1,0 +1,21 @@
+window:
+  opacity: 0.85
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: true 
+    
+font:
+  size: 10.0
+  normal:
+    family: JetBrainsMono Nerd Font Mono 
+  bold:
+    family: JetBrainsMono Nerd Font Mono 
+  italic:
+    family: JetBrainsMono Nerd Font Mono 
+  bold_italic:
+    family: JetBrainsMono Nerd Font Mono 
+      
+cursor:
+  style:
+    blinking: Always
