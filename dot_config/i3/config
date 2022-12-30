@@ -204,8 +204,8 @@ gaps outer 10
 smart_borders on
 
 # restore workspaces
-exec --no-startup-id "i3-msg \"workspace 1; append_layout /home/$HOME/.i3/workspace-1.json\""
-# exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/"'"$HOME"'"/.i3/workspace-2.json'"
+exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/nfort/.i3/workspace-1.json'"
+exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/nfort/.i3/workspace-2.json'"
 
 # vpn
 exec --no-startup-id  nmcli connection up gpb.openvpn.samsungA40
