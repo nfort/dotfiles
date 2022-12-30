@@ -1,0 +1,3 @@
+ZDOTDIR="$HOME/.zsh"
+ZSH_COMPDUMP="$ZDOTDIR/.zcompdump"
+EDITOR=nvim
