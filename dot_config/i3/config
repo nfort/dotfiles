@@ -184,8 +184,8 @@ font pango:JetBrains Mono Medium 13
 # start a terminal
 bindsym $mod+Return exec alacritty
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-1/launcher.sh
+# start rofi (a program launcher)
+bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-2/launcher.sh
 bindsym $mox+x exec --no-startup-id powermenu_t2
 
 # Use pactl to adjust volume in PulseAudio.
