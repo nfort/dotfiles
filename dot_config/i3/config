@@ -203,6 +203,9 @@ gaps inner 10
 gaps outer 10
 smart_borders on
 
+# vpn
+exec --no-startup-id  nmcli connection up gpb.openvpn.samsungA40
+
 # compositor
 exec --no-startup-id picom -b &
 
