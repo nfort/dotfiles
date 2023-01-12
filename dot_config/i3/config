@@ -222,6 +222,9 @@ exec --no-startup-id picom -b &
 # wallpaper 
 exec --no-startup-id nitrogen --restore &
 
+# power management
+exec --no-startup-id powerkit &
+
 ## Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/screenshots/$(date)"
 bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/screenshots/$(date)"
