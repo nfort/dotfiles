@@ -210,6 +210,9 @@ exec --no-startup-id "i3-msg 'workspace 3; append_layout /home/nfort/.i3/workspa
 exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/nfort/.i3/workspace-2.json'"
 exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/nfort/.i3/workspace-1.json'"
 exec --no-startup-id chromium
+exec --no-startup-id telegram-desktop
+exec --no-startup-id discord
+exec --no-startup-id obsidian 
 exec --no-startup-id alacritty
 
 # bluetooth 
