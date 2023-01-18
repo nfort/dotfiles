@@ -1,9 +1,3 @@
-shell:
-  program: /bin/zsh
-  args:
-    - -c
-    - "tmux"
-
 window:
   opacity: 0.85
   padding:
