@@ -2,7 +2,7 @@ shell:
   program: /bin/zsh
   args:
     - -c
-    - "tmux attach-session"
+    - "tmux attach-session -t global"
 
 window:
   opacity: 0.85
