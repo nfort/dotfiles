@@ -1,0 +1,21 @@
+// vim:ts=4:sw=4:et
+{
+  "border": "pixel",
+  "current_border_width": 0,
+  "floating": "auto_off",
+  "geometry": {
+    "height": 1004,
+    "width": 1880,
+    "x": 20,
+    "y": 56
+  },
+  "marks": [],
+  "name": "Obsidian",
+  "percent": 1,
+  "swallows": [
+    {
+      "instance": "^obsidian$"
+    }
+  ],
+  "type": "con"
+}
