@@ -1,3 +1,9 @@
+shell:
+  program: /bin/zsh
+  args:
+    - -c
+    - "tmux attach-session"
+
 window:
   opacity: 0.85
   padding:
