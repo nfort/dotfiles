@@ -1,0 +1,43 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1004,
+       "width": 940,
+       "x": 965,
+       "y": 56
+    },
+    "marks": [],
+    "name": "Discord",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "instance": "^discord$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1004,
+       "width": 935,
+       "x": 20,
+       "y": 56
+    },
+    "marks": [],
+    "name": "Telegram",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "instance": "^telegram\\-desktop$"
+       }
+    ],
+    "type": "con"
+}
+
