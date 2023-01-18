@@ -1,7 +1,7 @@
 shell:
   program: /bin/zsh
   args:
-    - c
+    - -c
     - "tmux attach-session -t global"
 
 window:
