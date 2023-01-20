@@ -222,7 +222,15 @@ local config = {
   -- Configure plugins
   plugins = {
     init = {
-      { 'David-Kunz/jester' },
+      { 
+        "David-Kunz/jester",
+        event = "BufRead",
+        config = function()
+          require("jest").setup({
+            path_to_jest_run = "npx jest"
+          })
+        end
+      },
       -- You can disable default plugins as follows:
       -- ["goolord/alpha-nvim"] = { disable = true },
 
