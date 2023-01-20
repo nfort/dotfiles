@@ -226,10 +226,10 @@ local config = {
         "David-Kunz/jester",
         event = "BufRead",
         config = function()
-          require("jester").setup({
-            path_to_jest_run = "npx jest"
+          require("jester").setup({ 
+            cmd = "npx jest -t '$result' -- $file",
           })
-        end
+        end,
       },
       -- You can disable default plugins as follows:
       -- ["goolord/alpha-nvim"] = { disable = true },
