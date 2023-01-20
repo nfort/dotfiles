@@ -226,7 +226,7 @@ local config = {
         module = "jester",
         setup = function()
           cmd = "npx jest -t '$result' -- $file",
-        end
+        end,
       },
       -- You can disable default plugins as follows:
       -- ["goolord/alpha-nvim"] = { disable = true },
