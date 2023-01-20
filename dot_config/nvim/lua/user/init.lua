@@ -227,7 +227,7 @@ local config = {
         event = "BufRead",
         config = function()
           require("jest").setup({
-            path_to_jest_run = "npx jest"
+            cmd = "npx jest -t '$result' -- $file",
           })
         end
       },
