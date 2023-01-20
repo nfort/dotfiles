@@ -226,8 +226,8 @@ local config = {
         "David-Kunz/jester",
         event = "BufRead",
         config = function()
-          require("jest").setup({
-            cmd = "npx jest -t '$result' -- $file",
+          require("jester").setup({
+            path_to_jest_run = "npx jest"
           })
         end
       },
