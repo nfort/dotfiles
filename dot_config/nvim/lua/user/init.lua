@@ -225,7 +225,7 @@ local config = {
       ["David-Kunz/jester"] = {
         event = "BufRead",
         config = function()
-          require("jester").setup({ cmd = "npx jest -t '$result' -- $file" })
+          require("jester").setup({ cmd = "npx jest -t '$result' --watch --collectCoverage=false -- $file" })
         end,
       },
       -- You can disable default plugins as follows:
