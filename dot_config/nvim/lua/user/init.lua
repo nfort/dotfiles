@@ -223,7 +223,7 @@ local config = {
   plugins = {
     init = {
       ["David-Kunz/jester"] = {
-        module = "jester",
+        event = "BufRead",
         config = function()
           require("jester").setup({ cmd = "npx jest -t '$result' -- $file" })
         end,
