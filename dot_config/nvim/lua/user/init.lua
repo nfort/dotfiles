@@ -5,7 +5,6 @@
 -- normal format is "key = value". These also handle array like data structures
 -- where a value with no key simply has an implicit numeric key
 local config = {
-
   -- Configure AstroNvim updates
   updater = {
     remote = "origin", -- remote to use
@@ -223,6 +222,7 @@ local config = {
   -- Configure plugins
   plugins = {
     init = {
+      { 'David-Kunz/jester' },
       -- You can disable default plugins as follows:
       -- ["goolord/alpha-nvim"] = { disable = true },
 
