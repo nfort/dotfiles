@@ -230,6 +230,9 @@ exec --no-startup-id nitrogen --restore &
 # power management
 exec --no-startup-id powerkit &
 
+#notify deamon
+exec --no-startup-id dunst &
+
 ## Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/screenshots/$(date)"
 bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/screenshots/$(date)"
