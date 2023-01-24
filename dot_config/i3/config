@@ -238,5 +238,8 @@ bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/scr
 bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
+# floating Android
+for_window [instance="qemu-system-x86"] floating enable
+
 # launch polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh --forest
