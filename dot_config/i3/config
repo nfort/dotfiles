@@ -218,9 +218,6 @@ exec --no-startup-id alacritty
 # bluetooth 
 exec --no-startup-id blueman-applet
 
-# vpn
-exec --no-startup-id  nmcli connection up gpb.openvpn.samsungA40
-
 # compositor
 exec --no-startup-id picom -b &
 
