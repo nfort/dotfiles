@@ -46,6 +46,9 @@ local config = {
       spell = false, -- sets vim.opt.spell
       signcolumn = "auto", -- sets vim.opt.signcolumn to auto
       wrap = false, -- sets vim.opt.wrap
+      foldenable = false,
+      foldexpr = "nvim_treesitter#foldexpr()", -- set Treesitter based folding
+      foldmethod = "expr",
     },
     g = {
       mapleader = " ", -- sets vim.g.mapleader
