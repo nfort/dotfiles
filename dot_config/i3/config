@@ -206,7 +206,7 @@ smart_borders on
 
 # restore workspaces
 for_window [class="Alacritty"] move container to workspace $ws1
-for_window [class="chromium"] move container to workspace $ws2
+for_window [class="Chromium"] move container to workspace $ws2
 for_window [class="discord"] move container to workspace $ws3
 for_window [class="telegram-desktop"] move container to workspace $ws3
 for_window [class="obsidian"] move container to workspace $ws4
