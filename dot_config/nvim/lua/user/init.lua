@@ -6,6 +6,9 @@ local config = {
           offsetEncoding = "utf-8",
         },
       }
+    },
+    formatting = {
+      disabled = { "tsserver" },
     }
   }
 }
