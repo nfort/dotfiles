@@ -8,6 +8,7 @@ local config = {
       }
     },
     formatting = {
+      format_on_save = false,
       disabled = { "tsserver" },
     }
   }
