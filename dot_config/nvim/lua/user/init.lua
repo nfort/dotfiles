@@ -1,6 +1,8 @@
 return {
-  opt = {
-    colorcolumn = 120,
+  vim = {
+    opt = {
+      colorcolumn = 120,
+    },
   },
   lsp = {
     formatting = {
