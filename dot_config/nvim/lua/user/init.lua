@@ -1,5 +1,5 @@
 return {
-  vim = {
+  options = {
     opt = {
       colorcolumn = 120,
     },
