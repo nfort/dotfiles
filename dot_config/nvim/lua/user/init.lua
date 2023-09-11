@@ -1,4 +1,5 @@
 return {
+  colorscheme = "catppuccin",
   options = {
     opt = {
       colorcolumn = "120",
