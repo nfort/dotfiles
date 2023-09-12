@@ -9,4 +9,5 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.workflow.hardtime-nvim" },
+  { import = "astrocommunity.editing-support.multicursors-nvim" },
 }
