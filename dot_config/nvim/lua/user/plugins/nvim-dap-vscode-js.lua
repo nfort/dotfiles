@@ -51,10 +51,12 @@ return {
       },
     }
 
-    if not dap.configurations.javascript then
-      dap.configurations.javascript = js_config
-    else
-      utils.extend_tbl(dap.configurations.javascript, js_config)
+    for _, language in ipairs({ "typescript", "javascript" }) do
+      if not dap.configurations[language] then
+        dap.configurations[language] = js_config
+      else
+        utils.extend_tbl(dap.configurations[language], js_config)
+      end
     end
   end,
 }
