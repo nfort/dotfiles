@@ -245,3 +245,6 @@ for_window [title=".*Emulator.*"] floating enable
 
 # launch polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh --forest
+
+# focus when window require
+for_window [urgent="latest"] focus
