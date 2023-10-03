@@ -221,7 +221,7 @@ exec --no-startup-id alacritty
 exec --no-startup-id blueman-applet
 
 # compositor
-exec --no-startup-id picom -b --backend glx --vsync &
+exec --no-startup-id picom -b --vsync &
 
 # wallpaper 
 exec --no-startup-id nitrogen --restore &
