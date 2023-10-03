@@ -8,7 +8,7 @@ shell:
     - "tmux attach-session"
 
 window:
-  opacity: 0.95
+  opacity: 0.99
   padding:
     x: 0
     y: 0
