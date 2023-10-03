@@ -15,7 +15,7 @@ window:
   dynamic_padding: true
   dimensions:
     columns: 200
-    lines: 80
+    lines: 70
 
 font:
   size: 8.5
