@@ -199,7 +199,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl s +50
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 50-
 
 # gaps
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 1
 gaps top 45
 gaps left 10
 gaps right 10
