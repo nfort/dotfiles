@@ -200,6 +200,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 50-
 
 # gaps
 for_window [class="^.*"] border pixel 0
+gaps top 10
 gaps inner 10
 gaps outer 10
 smart_borders on
