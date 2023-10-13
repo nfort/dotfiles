@@ -21,7 +21,7 @@ window:
     lines: 60
 
 font:
-  size: 11
+  size: 10.5
   normal:
     family: JetBrainsMono Nerd Font Mono
   bold:
