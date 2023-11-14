@@ -3,6 +3,7 @@ import:
    
 env:
   TERM: xterm-256color
+  WINIT_X11_SCALE_FACTOR: "1.66"
   
 shell:
   program: /bin/zsh
