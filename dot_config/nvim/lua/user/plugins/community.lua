@@ -12,4 +12,5 @@ return {
   { import = "astrocommunity.workflow.hardtime-nvim" },
   { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
   { import = "astrocommunity.editing-support.multicursors-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
 }
