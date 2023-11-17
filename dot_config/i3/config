@@ -231,6 +231,9 @@ exec --no-startup-id nitrogen --restore &
 # power management
 exec --no-startup-id powerkit &
 
+# authetication agent
+exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit &
+
 #notify deamon
 exec --no-startup-id /usr/lib/notify-osd/notify-osd &
 
