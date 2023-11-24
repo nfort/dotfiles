@@ -25,13 +25,13 @@ window:
 font:
   size: 7.0 
   normal:
-    family: JetBrainsMono Nerd Font Mono
+    family: JetBrainsMono NF
   bold:
-    family: JetBrainsMono Nerd Font Mono
+    family: JetBrainsMono NF
   italic:
-    family: JetBrainsMono Nerd Font Mono
+    family: JetBrainsMono NF
   bold_italic:
-    family: JetBrainsMono Nerd Font Mono
+    family: JetBrainsMono NF
 
 cursor:
   style:
