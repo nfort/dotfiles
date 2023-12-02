@@ -255,6 +255,7 @@ for_window [class="transmission-gtk"] floating enable
 for_window [class="blueman-manage"] floating enable
 for_window [class="nm-connection-editor"] floating enable
 
+
 # launch polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh --forest
 
