@@ -30,15 +30,15 @@
 }
 
 .blurredBG.notification {
-    background:  rgba(255, 255, 255, 0.4);
+    background:  rgba(255, 255, 255, 0.9);
 }
 
 .blurredBG.notification.critical {
-    background: rgba(255, 0, 0, 0.5);
+    background: rgba(255, 0, 0, 0.9);
 }
 
 .notificationInCenter.critical {
-    background: rgba(155, 0, 20, 0.5);
+    background: rgba(155, 0, 20, 0.9);
 }
 
 /* Labels */
