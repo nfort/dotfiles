@@ -199,12 +199,11 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl s +50
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 50-
 
 # gaps
-# for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 0
 gaps top 45
 gaps left 10
 gaps right 10
 gaps bottom 10
-smart_borders on
 
 # restore workspaces
 for_window [class="Alacritty"] move container to workspace $ws1
@@ -235,7 +234,7 @@ exec --no-startup-id powerkit &
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit &
 
 #notify deamon
-exec --no-startup-id /usr/lib/notify-osd/notify-osd &
+# exec --no-startup-id /usr/lib/notify-osd/notify-osd &
 
 ## Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/screenshots/$(date)"
