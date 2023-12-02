@@ -234,7 +234,7 @@ exec --no-startup-id powerkit &
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit &
 
 #notify deamon
-# exec --no-startup-id /usr/lib/notify-osd/notify-osd &
+exec --no-startup-id deadd-notification-center &
 
 ## Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/screenshots/$(date)"
