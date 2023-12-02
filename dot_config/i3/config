@@ -254,6 +254,7 @@ for_window [class="filezilla"] floating enable
 for_window [class="transmission-gtk"] floating enable
 for_window [class="blueman-manage"] floating enable
 for_window [class="nm-connection-editor"] floating enable
+for_window [class="qt5ct"] floating enable
 
 
 # launch polybar
