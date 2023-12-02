@@ -247,14 +247,14 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 
 # floating apps
 for_window [title=".*Emulator.*"] floating enable
-for_window [class="dolphin"] floating enable
-for_window [class="lxappearance"] floating enable
+for_window [class="(?i)dolphin"] floating enable
+for_window [class="(?i)lxappearance"] floating enable
 for_window [class="(?i)Kvantum Manager"] floating enable
-for_window [class="filezilla"] floating enable
-for_window [class="transmission-gtk"] floating enable
-for_window [class="blueman-manage"] floating enable
-for_window [class="nm-connection-editor"] floating enable
-for_window [class="qt5ct"] floating enable
+for_window [class="(?i)filezilla"] floating enable
+for_window [class="(?i)transmission-gtk"] floating enable
+for_window [class="(?i)blueman-manage"] floating enable
+for_window [class="(?i)nm-connection-editor"] floating enable
+for_window [class="(?i)qt5ct"] floating enable
 
 
 # launch polybar
