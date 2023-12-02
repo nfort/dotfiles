@@ -232,7 +232,7 @@ notification:
     ### be used to avoid overlap between notifications and a bar such as
     ### polybar or i3blocks.
     margin-top: 50
-    margin-right: 50
+    margin-right: 10
     margin-between: 20
 
     ### Defines after how many lines of text the body will be truncated. 
