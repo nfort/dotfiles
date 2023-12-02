@@ -2,7 +2,7 @@
 /* Notification center */
 
 .blurredBG, #main_window, .blurredBG.low, .blurredBG.normal {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.9);
 }
 
 .noti-center.time {
