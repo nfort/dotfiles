@@ -250,9 +250,9 @@ for_window [title=".*Emulator.*"] floating enable
 for_window [class="(?i)dolphin"] floating enable
 for_window [class="(?i)lxappearance"] floating enable
 for_window [class="(?i)Kvantum Manager"] floating enable
-for_window [class="(?i)filezilla"] floating enable
+for_window [class="(?i)FileZilla"] floating enable
 for_window [class="(?i)transmission-gtk"] floating enable
-for_window [class="(?i)blueman-manage"] floating enable
+for_window [class="(?i)blueman-manager"] floating enable
 for_window [class="(?i)nm-connection-editor"] floating enable
 for_window [class="(?i)qt5ct"] floating enable
 
