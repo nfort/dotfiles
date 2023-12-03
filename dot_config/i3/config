@@ -228,7 +228,7 @@ exec --no-startup-id picom -b --vsync &
 exec --no-startup-id nitrogen --restore &
 
 # power management
-exec --no-startup-id powerkit &
+exec --no-startup-id xfce4-power-manager &
 
 # authetication agent
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit &
