@@ -1,0 +1,29 @@
+MenuBar=Disabled
+
+[General]
+Version=202
+ViewPropsTimestamp=2023,11,6,12,23,2.136
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+1920x1080 screen: Height=566
+1920x1080 screen: Width=416
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
+
+[Search]
+Location=Everywhere
+
+[ViewPropertiesDialog]
+1920x1080 screen: Height=627
+1920x1080 screen: Width=429
+2 screens: Height=534
+2 screens: Width=350
