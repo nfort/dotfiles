@@ -14,11 +14,11 @@ width: 500
 
 ### Monitor on which the notification center/notifications will be
 ### printed. If "follow-mouse" is set true, this does nothing.
-monitor: 0
+# monitor: 0
 
 ### If true, the notification center/notifications will open on the
 ### screen, on which the mouse is. Overrides the "monitor" setting.
-follow-mouse: false
+follow-mouse: true
 
 notification-center:
   ### Margin at the top/right/bottom of the notification center in
