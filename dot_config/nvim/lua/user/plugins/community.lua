@@ -13,6 +13,5 @@ return {
   { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
   { import = "astrocommunity.editing-support.multicursors-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
-  { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
 }
