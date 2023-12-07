@@ -235,8 +235,11 @@ exec --no-startup-id xfce4-power-manager &
 # authetication agent
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit &
 
-#notify deamon
+# notify deamon
 exec --no-startup-id deadd-notification-center &
+
+# redshift
+exec --no-startup-id redshift &
 
 ## Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/screenshots/$(date)"
