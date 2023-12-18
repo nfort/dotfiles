@@ -6,7 +6,7 @@ vim.cmd [[
   au BufRead,BufNewFile */usr/local/nginx/conf/* set ft=nginx
   au BufRead,BufNewFile nginx.conf set ft=nginx
   au BufRead,BufNewFile angie.conf set ft=nginx
-  au BufRead,BufNewFile *__angie-confs/* set ft=nginx
+  " au BufRead,BufNewFile *__angie-confs/* set ft=nginx
 ]]
 
 return {
