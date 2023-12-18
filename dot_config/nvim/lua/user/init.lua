@@ -1,3 +1,8 @@
+vim.cmd [[
+  set spell
+  set number
+]]
+
 return {
   colorscheme = "catppuccin",
   options = {
