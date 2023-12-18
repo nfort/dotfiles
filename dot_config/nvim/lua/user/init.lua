@@ -1,5 +1,6 @@
 vim.cmd [[
-  source /home/nfort/.config/nvim/lua/user/syntax/nginx.vim
+  runtime lua/user/syntax/nginx.vim
+  " source /home/nfort/.config/nvim/lua/user/syntax/nginx.vim
   au BufRead,BufNewFile *.nginx set ft=nginx
   au BufRead,BufNewFile */etc/nginx/* set ft=nginx
   au BufRead,BufNewFile */usr/local/nginx/conf/* set ft=nginx
