@@ -11,8 +11,8 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.workflow.hardtime-nvim" },
-  { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
   { import = "astrocommunity.editing-support.multicursors-nvim" },
+  { import = "astrocommunity.editing-support.wildfire-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.media.vim-wakatime" },
 }
