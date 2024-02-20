@@ -8,7 +8,6 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.workflow.hardtime-nvim" },
   { import = "astrocommunity.editing-support.multicursors-nvim" },
