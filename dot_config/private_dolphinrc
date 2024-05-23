@@ -19,9 +19,6 @@ ToolBarsMovable=Disabled
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
 
-[Search]
-Location=Everywhere
-
 [ViewPropertiesDialog]
 1920x1080 screen: Height=627
 1920x1080 screen: Width=429
