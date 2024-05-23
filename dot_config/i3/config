@@ -266,5 +266,5 @@ for_window [class="(?i)crow-translate"] floating enable
 # launch polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-# focus when window require
+# focus when window require 1
 # for_window [urgent="latest"] focus
