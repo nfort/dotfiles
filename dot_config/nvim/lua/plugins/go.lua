@@ -66,12 +66,12 @@ return {
               },
               hints = {
                 assignVariableTypes = true,
-                compositeLiteralFields = true,
-                compositeLiteralTypes = true,
-                constantValues = true,
-                functionTypeParameters = true,
-                parameterNames = true,
-                rangeVariableTypes = true,
+                -- compositeLiteralFields = true,
+                -- compositeLiteralTypes = true,
+                -- constantValues = true,
+                -- functionTypeParameters = true,
+                -- parameterNames = true,
+                -- rangeVariableTypes = true,
               },
               usePlaceholders = true,
               completeUnimported = true,
@@ -85,10 +85,14 @@ return {
             },
           },
           before_init = function(_, config)
-            if vim.fn.executable "go" ~= 1 then return end
+            if vim.fn.executable("go") ~= 1 then
+              return
+            end
 
-            local module = vim.fn.trim(vim.fn.system "go list -m")
-            if vim.v.shell_error ~= 0 then return end
+            local module = vim.fn.trim(vim.fn.system("go list -m"))
+            if vim.v.shell_error ~= 0 then
+              return
+            end
             module = module:gsub("\n", ",")
 
             config.settings.gopls["formatting.local"] = module
@@ -104,7 +108,7 @@ return {
     opts = function(_, opts)
       if opts.ensure_installed ~= "all" then
         opts.ensure_installed =
-          require("astrocore").list_insert_unique(opts.ensure_installed, { "go", "gomod", "gosum", "gowork" })
+            require("astrocore").list_insert_unique(opts.ensure_installed, { "go", "gomod", "gosum", "gowork" })
       end
     end,
   },
@@ -165,15 +169,19 @@ return {
     ft = { "go", "gomod" },
     -- Prevents Neovim from freezing on plugin installation/update.
     -- See: <https://github.com/ray-x/go.nvim/issues/433>
-    build = function() require("go.install").update_all() end,
+    build = function()
+      require("go.install").update_all()
+    end,
   },
   {
     "nvim-neotest/neotest",
     optional = true,
     dependencies = { "nvim-neotest/neotest-go" },
     opts = function(_, opts)
-      if not opts.adapters then opts.adapters = {} end
-      table.insert(opts.adapters, require "neotest-go"(require("astrocore").plugin_opts "neotest-go"))
+      if not opts.adapters then
+        opts.adapters = {}
+      end
+      table.insert(opts.adapters, require("neotest-go")(require("astrocore").plugin_opts("neotest-go")))
     end,
   },
   {
