@@ -38,52 +38,52 @@ return {
 					-- 	"-remote.debug=:0",
 					-- },
 					-- flags = { allow_incremental_sync = true, debounce_text_changes = 500 },
-					-- settings = {
-					-- 	gopls = {
-					-- 		-- more settings: https://github.com/golang/tools/blob/master/gopls/doc/settings.md
-					-- 		-- not supported
-					-- 		analyses = {
-					-- 			unreachable = true,
-					-- 			nilness = true,
-					-- 			unusedparams = true,
-					-- 			useany = true,
-					-- 			unusedwrite = true,
-					-- 			ST1003 = true,
-					-- 			undeclaredname = true,
-					-- 			fillreturns = true,
-					-- 			nonewvars = true,
-					-- 			fieldalignment = false,
-					-- 			shadow = true,
-					-- 		},
-					-- 		codelenses = {
-					-- 			generate = true, -- show the `go generate` lens.
-					-- 			gc_details = true, -- Show a code lens toggling the display of gc's choices.
-					-- 			test = true,
-					-- 			tidy = true,
-					-- 			vendor = true,
-					-- 			regenerate_cgo = true,
-					-- 			upgrade_dependency = true,
-					-- 		},
-					-- 		hints = {
-					-- 			assignVariableTypes = true,
-					-- 			-- compositeLiteralFields = true,
-					-- 			-- compositeLiteralTypes = true,
-					-- 			-- constantValues = true,
-					-- 			-- functionTypeParameters = true,
-					-- 			-- parameterNames = true,
-					-- 			-- rangeVariableTypes = true,
-					-- 		},
-					-- 		usePlaceholders = true,
-					-- 		completeUnimported = true,
-					-- 		staticcheck = true,
-					-- 		matcher = "Fuzzy",
-					-- 		diagnosticsDelay = "500ms",
-					-- 		symbolMatcher = "fuzzy",
-					-- 		semanticTokens = true,
-					-- 		gofumpt = true,
-					-- 		buildFlags = { "-tags", "integration" },
-					-- 	},
-					-- },
+					settings = {
+						gopls = {
+							-- more settings: https://github.com/golang/tools/blob/master/gopls/doc/settings.md
+							-- not supported
+							-- analyses = {
+							-- 	unreachable = true,
+							-- 	nilness = true,
+							-- 	unusedparams = true,
+							-- 	useany = true,
+							-- 	unusedwrite = true,
+							-- 	ST1003 = true,
+							-- 	undeclaredname = true,
+							-- 	fillreturns = true,
+							-- 	nonewvars = true,
+							-- 	fieldalignment = false,
+							-- 	shadow = true,
+							-- },
+							-- codelenses = {
+							-- 	generate = true, -- show the `go generate` lens.
+							-- 	gc_details = true, -- Show a code lens toggling the display of gc's choices.
+							-- 	test = true,
+							-- 	tidy = true,
+							-- 	vendor = true,
+							-- 	regenerate_cgo = true,
+							-- 	upgrade_dependency = true,
+							-- },
+							-- hints = {
+							-- assignVariableTypes = true,
+							-- compositeLiteralFields = true,
+							-- compositeLiteralTypes = true,
+							-- constantValues = true,
+							-- functionTypeParameters = true,
+							-- parameterNames = true,
+							-- rangeVariableTypes = true,
+							-- },
+							-- usePlaceholders = true,
+							-- completeUnimported = true,
+							-- staticcheck = true,
+							-- matcher = "Fuzzy",
+							-- diagnosticsDelay = "500ms",
+							-- symbolMatcher = "fuzzy",
+							-- semanticTokens = true,
+							gofumpt = true,
+							-- buildFlags = { "-tags", "integration" },
+						},
+					},
 					before_init = function(_, config)
 						if vim.fn.executable("go") ~= 1 then
 							return
@@ -108,7 +108,7 @@ return {
 		opts = function(_, opts)
 			if opts.ensure_installed ~= "all" then
 				opts.ensure_installed =
-						require("astrocore").list_insert_unique(opts.ensure_installed, { "go", "gomod", "gosum", "gowork" })
+					require("astrocore").list_insert_unique(opts.ensure_installed, { "go", "gomod", "gosum", "gowork" })
 			end
 		end,
 	},
